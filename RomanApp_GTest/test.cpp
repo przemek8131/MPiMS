@@ -23,13 +23,6 @@ TEST(DecRoman_TestSuite, ChainTest2)
 	ASSERT_EQ(result, true) << "All decimals 1..3999 should pass and vice versa";
 }
 
-TEST(Decmialtest, example)
-{
-	EXPECT_FLOAT_EQ(2.00001, 2.000011);
-	EXPECT_DOUBLE_EQ(2.00000000000001, 2.00000000000002);
-	
-}
-
 
 int main(int argc, char** argv) {
 	::testing::InitGoogleTest(&argc, argv);
